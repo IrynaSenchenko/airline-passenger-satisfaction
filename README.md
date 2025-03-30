@@ -18,12 +18,12 @@
 #### 📌 Матриця плутанини (Logistic Regression)
 Модель логістичної регресії досягла хороших результатів при класифікації пасажирів за рівнем задоволеності.
 
-![Confusion Matrix](images/confusion_matrix_for_logisticregression.png)
+<img src="images/confusion_matrix_for_logisticregression.png" alt="Confusion Matrix" width="300"/>
 
 #### 📌 Важливість ознак (LightGBM)
 Найвпливовішою ознакою виявився рівень доступу до Wi-Fi на борту.
 
-![Top Features](images/top_features.png)
+<img src="images/top_features.png" alt="top_features" width="600"/>
 
 ### 📁 Структура репозиторію
 ```
@@ -63,12 +63,12 @@ This project explores airline passenger satisfaction using a real-world classifi
 #### 📌 Confusion Matrix (Logistic Regression)
 Logistic Regression performed well in identifying satisfied vs dissatisfied passengers.
 
-![Confusion Matrix](images/confusion_matrix_for_logisticregression.png)
+<img src="images/confusion_matrix_for_logisticregression.png" alt="Confusion Matrix" width="300"/>
 
 #### 📌 Feature Importance (LightGBM)
 The most important feature was inflight Wi-Fi service.
 
-![Top Features](images/top_features.png)
+<img src="images/top_features.png" alt="top_features" width="600"/>
 
 ### 📁 Repository structure:
 ```
