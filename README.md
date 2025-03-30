@@ -13,6 +13,18 @@
 - Оцінка за метриками: F1-score, ROC AUC
 - Візуалізація результатів
 
+### 🖼 Результати моделі
+
+#### 📌 Матриця плутанини (Logistic Regression)
+Модель логістичної регресії досягла хороших результатів при класифікації пасажирів за рівнем задоволеності.
+
+![Confusion Matrix](images/confusion_matrix_for_logisticregression.png)
+
+#### 📌 Важливість ознак (LightGBM)
+Найвпливовішою ознакою виявився рівень доступу до Wi-Fi на борту.
+
+![Top Features](images/top_features.png)
+
 ### 📁 Структура репозиторію
 ```
 airline-passenger-satisfaction/
@@ -46,6 +58,18 @@ This project explores airline passenger satisfaction using a real-world classifi
 - Evaluation using F1-score and ROC AUC
 - Visual representation of results
 
+### 🖼 Model Results
+
+#### 📌 Confusion Matrix (Logistic Regression)
+Logistic Regression performed well in identifying satisfied vs dissatisfied passengers.
+
+![Confusion Matrix](images/confusion_matrix_for_logisticregression.png)
+
+#### 📌 Feature Importance (LightGBM)
+The most important feature was inflight Wi-Fi service.
+
+![Top Features](images/top_features.png)
+
 ### 📁 Repository structure:
 ```
 airline-passenger-satisfaction/
@@ -66,4 +90,4 @@ jupyter notebook notebooks/airline_satisfaction_analysis.ipynb
 
 ---
 
-👩‍💻 **Author:** Iryna Senchenko (https://www.linkedin.com/in/yourprofile)
+👩‍💻 **Author:** Iryna Senchenko (https://www.linkedin.com/in/iryna-senchenko/)
